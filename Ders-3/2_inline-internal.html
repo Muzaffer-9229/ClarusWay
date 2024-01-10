@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline internal</title>
+
+    <style>
+
+        #par{
+            color: purple;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: bisque;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+            border: 5px solid blue;
+            border-radius: 50px;
+        }
+
+        .img-div {
+            border: 5px solid red;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+ <!-- 
+   * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.
+ -->
+
+<body>
+    <h1>inline internal</h1>
+
+    <div class="img-div">
+
+        <img src="https://cdn.pixabay.com/photo/2023/11/25/08/58/jumping-spider-8411355_1280.jpg" alt="">
+
+        <img src="https://picsum.photos/id/685/600/400.jpg" alt="Wolken">
+
+        <img src="https://cdn.pixabay.com/photo/2016/06/28/00/13/castle-1483681_1280.jpg" alt="">
+
+    </div>
+
+    
+
+
+    <div id="par">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae neque optio molestias minima. Velit in dicta et consequuntur suscipit quam ex, ratione dolorum quo totam pariatur, maxime quidem minus?
+    </div>
+</body>
+</html>
