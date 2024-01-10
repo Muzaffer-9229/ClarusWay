@@ -67,15 +67,86 @@
             <label for="dosya">Dosya sec :</label>
             <input type="file" name="Secilen dosya" id="dosya">
         </div>
+        <br>
+
+        <div>
+            <label for="seker">Hangi tatliyi seversiniz:</label>
+            <br>
+            <select name="seçilen tatli" id="seker" size="5" multiple>
+                <option value="Sütlaç">Sütlaç</option>
+                <option value="Keşkül">Keşkül</option>
+                <option value="Süpangle">Süpangle</option>
+                <option value="Magnolia">Magnolia</option>
+            </select>
+        </div>
+        <hr>
+
+        <div>
+            <label for="seker2">Hangi tatliyi seversiniz:</label>
+            <br>
+            <select name="tatlilar" id="seker2" size="10" multiple>
+                <optgroup label="Sütlü tatlilar">
+                    <option value="Sütlaç">Sütlaç</option>
+                    <option value="Keşkül">Keşkül</option>
+                    <option value="Süpangle">Süpangle</option>
+                    <option value="Magnolia">Magnolia</option>
+                </optgroup>
+
+
+                <optgroup label="şerbetli tatlilar">
+                    <option value="Künefe">Kaymakli künefe</option>
+                    <option value="Baklava">Baklava</option>
+                    <option value="Şekerpare">Şekerpare</option>
+                    <option value="Hayrabolu">Hayrabolu</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr>
+
+        <div>
+            <label for="Yorum :">Yorum</label> <br>
+            <textarea name="" id="yorum" style="width: 50%; height: 150px; resize: none"
+            ></textarea>
+        </div>
+
+        <div>
+            <label for="input-browser">Browser :</label>
+            <input type="text" name="Kullanilan_browser" id="input_browser">
+
+            <datalist id="browser">
+                <option value="Crome"></option>
+                <option value="Firefox"></option>
+                <option value="Safari"></option>
+                <option value="Opera"></option>
+                <option value="Brave"></option>
+            </datalist>    
+        </div>
+        <br>
+
+        <div>
+            <fieldset>
+                <label for="">Ad</label>
+                <br>
+                <input type="text" name="name" placeholder="adiniz...">
+                <br>
+                <label for="">Soyadi</label>
+                <br>
+                <input type="text" name="Surname" placeholder="Soyadinizi giriniz..">
+            </fieldset>
+        </div>
+
+        <br><br><br><br><br>
+
+        <input type="reset" value="Reset">
+
+        <input type="submit" value="Gönder">
+
         
         
     </form>
 
 
-        <br><br><br><br><br>
-
-        <input type="submit" value="Gönder">
-
+        
     
 
 
