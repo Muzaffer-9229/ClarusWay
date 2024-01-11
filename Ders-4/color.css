@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+#par1{
+    background-color: aqua;
+}
+
+#par2{
+    background-color: rgb(0, 0, 255);
+}
+
+#par3{
+    background-color: rgb(0, 255, 0);
+}
+
+#par4{
+    background-color: rgba(250, 255, 200, 1);
+}
+
+#par5{
+    background-color: #8000c4;
+}
+
+#par6{
+    background-color: #ff00ffB0;
+}
+
+#par7{
+    background-color: hsl(240, 100%, 50%);
+}
