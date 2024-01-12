@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+
+#container{
+    display: flex;
+    background-image:linear-gradient(to bottom left, yellow, blue)
+}
+.box1{
+    display: inline-block;
+}
+
+.box2{
+    display: inline-block;
+}
+.box3{
+    display: inline-block;
+}
+
+.none{
+    border: 5px none;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.dotted{
+    
+    border: 5px dotted black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;;
+   
+}
+
+.dashed{
+    border: 5px dashed black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;;
+}
+
+.solid{
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.double{
+    border: 5px double black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.grove{
+    border: 5px groove black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.ridge{
+    border: 5px ridge black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.inset{
+    border: 5px inset black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.outset{
+    border: 5px outset black;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+}

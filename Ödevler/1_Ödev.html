@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./1_ödev.css" />
+    <title>Ödev-1</title>
+</head>
+
+<body>
+    <h1 id="baslik">ABC Tasarim Programi Kuurulum ve Satis Sözlesmesi :)</h1>
+
+    <div class="div1">
+        <fieldset>
+            <legend>Sözlesme Onay</legend>
+            <input type="checkbox" />
+            <span>
+                Asagidaki bilgilerin dogrulugunu kabul ediyorum ve Sözlesmesini
+                onayliyorum
+            </span>
+
+            <br /> <br>
+
+            <input type="reset" value="Formu Kaydet" />
+
+            <input type="submit" value="Formu Temizle" />
+        </fieldset>
+    </div>
+    <br />
+
+    <div class="div2">
+        <fieldset>
+            <legend>Kisisel Bligiler</legend>
+            <br />
+            <label for="Id">Form güvenlik ID </label>
+            <input type="text" placeholder="asdfg" />
+            <br />
+            <label for="name">Ad</label>
+            <input type="text" id="name" />
+            <br />
+            <label for="lastname">Soyad</label>
+            <input type="text" id="soyadi" />
+            <br />
+            <label for="age">Yas</label>
+            <input type="number" id="Yas" />
+            <br />
+            <label for="Mail">Mail Adresi</label>
+            <input type="text" id="Mail" />
+            <br />
+            <label for="Fotograf">Fotograf Ekle</label>
+            <input type="file" name="Fotograf" id="Fotograf" />
+            <br /><br />
+        </fieldset>
+    </div>
+    <br>
+    
+
+        
+    <div class="div3">
+        <fieldset>
+            <legend>Diger Bligiler</legend>
+   
+            <br />
+            <p>Buradaki alanlar Mesleki Deneyimi Kapsar</p>
+            <br>
+
+            <span>Kisisel Bligiler</span>
+            <label for="">Sektöre Giris Tarihiniz</label>
+            <input type="date" name="tarih" id="date" min="12-11-1970" />
+            <br /><br /><br />
+
+            <label for="sayi">Sektör Deneyimi</label>
+            <br /><br /><br />
+            <input type="radio" id="1-5 yil" name="1-5 yil" />
+
+            <label for="">1-5 yil</label>
+            <br />
+            <input type="radio" id="6-10 yil" name="6-10 yil" />
+            <label for="">6-10 yil</label>
+            <br />
+            <input type="radio" id="11-15 yil" name="11-15 yil" />
+            <label for="">11-15 yil</label>
+            <br />
+            <input type="radio" id="15 üzeri" name="15-üzeri yil" />
+            <label for="">15 üzeri</label>
+            <br /><br /><br />
+
+            <label for="seker2">Programlama Dilleri</label>
+            <br />
+            <select name="Diller" id="Dil" size="6" multiple>
+                <optgroup label="">
+                    <option value="C#">C#</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                </optgroup>
+            </select>
+    </div>
+        </fieldset>
+    <br /><br />
+
+    <div class="div4">
+        <fieldset>
+            <legend>Sözlesme Kopyasi</legend>
+                <textarea name="" id="yorum"
+                    style="width: 30%; height: 100px; resize: none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate voluptatem enim repudiandae accusantium omnis itaque rerum eos corporis dicta minus. Eius totam, quo impedit soluta repellat quod. Fugit, dolore dolorum.</textarea>
+                <br />
+        </fieldset>
+    </div>
+    <br />
+
+    <div class="div5">
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <br /><br /><br />
+            <span>Mail Listesine Katilmak <strong>Istiyorum</strong></span>
+            <input type="radio" />
+            <br />
+            <span>Mail Listesine Katilmak <strong class="strong">Istemiyorum</strong></span>
+            <input type="radio" />
+        </fieldset>
+    </div>
+</body>
+
+</html>

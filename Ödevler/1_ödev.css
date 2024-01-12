@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+#baslik{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.fieldset{
+    padding: 50px;
+}
+.div1{
+    width: 90%;
+    margin: auto;
+}
+
+.div2{
+    width: 90%;
+    margin: auto;
+}
+
+.div3{
+    width: 90%;
+    margin: auto;
+}
+
+.div4{
+    width: 90%;
+    margin: auto;
+}
+
+.div5{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.p3{
+    width: 90%;
+    margin: auto;
+}
+
+.p4{
+    width: 90%;
+    margin: auto;
+}
+
+.p5{
+    width: 90%;
+    margin: auto;
+}
+
+.strong{
+    text-decoration: underline;
+}
+
+.radio{
+    display: flex;
+    gap: 7rem;
+}
