@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&family=Caveat:wght@400;500&family=Montserrat:ital,wght@1,400;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  /* background-color: #52acff;
+  background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%); */
+  /* width: 800px;
+  height: 800px; */
+
+  font-family: "Bitter", serif;
+  font-family: "Caveat", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul.languages {
+  /* border: 2px solid red; */
+
+  /* madde imi stilleri */
+  list-style-type: none; 
+  list-style-type: square; 
+  list-style-type: circle; 
+  list-style-type: lower-alpha;
+  list-style-type: georgian;
+  list-style-type: disc;
+  list-style-type: none;
+
+  /* madde imleri li'lerin icindemi disindami  */
+
+  list-style-position: inside;
+
+  /* list-style-image: url(./img/home.svg); */
+
+  color: black;
+
+  font-family: "Caveat", cursive;
+}
+
+h2 {
+  color: purple;
+}
+
+h2 i {
+  color: magenta;
+}
+
+ul.languages li {
+    background-color: lightgreen;
+    margin: 5px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 1px solid orange;
+    border-left: 5px solid gray;
+  }
+
+  ul.languages li::before{
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    mask: url(./img/house-solid.svg) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: gray;
+    margin-right: 10px;
+    padding-right: 5px;
+
+}
+
+ul.languages li:hover {
+  opacity: 0.8;
+  cursor: pointer;
+ 
+}
+
+/* .languages li:hover{
+    background-color: red;
+}  */
+
+/* PSEUDE CLASSES */
+
+ul.pseude li:first-child {
+  color: red;
+  font-family: "bitter", serif;
+
+}
+ul.pseude li:last-child{
+    color: blue;
+    font-family: "bitter", serif;
+
+}
+
+ul.pseude li:nth-child(3){
+    color: darkgoldenrod;
+    background-color: red;
+    font-size: 1.5rem;
+    
+}
+
+ul.pseude li:nth-child(5){
+    color: darkblue;
+    font-size: 2rem;
+    list-style-type: none;
+    font-family: "caveat", cursive;
+    font-weight: 500;
+}
+
+
+ul.pseude li:nth-child(odd){
+    background-color: gray;
+}
+
+ul.pseude li:nth-child(even){
+    background-color: lightsalmon;
+}
+
+ul.pseude li:hover{
+    background-color: darkorchid;
+}
+
+ul.pseude li:active{
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+    background-color: tomato;
+    color: white;
+    border: 4px dashed gray;
+}
+
+/* LINK PSEUDE CLASSES */
+
+nav.link a:link{
+    color: red;
+}
+
+nav.link a:visited{
+    color: darkgreen;
+}
+
+nav.link a:active{
+    color: lightcoral;
+}
+
+
+nav.link a:hover{
+    color: blue;
+}
+
+nav.cw a{
+    text-decoration: none;
+    border: 2px solid darkorange;
+    padding: 5px;
+    margin: 10px;
+    color: gray;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+
+nav.cw a:hover{
+    background-color: gray;
+    color: darkorange;
+}
+
+nav.cw a:hover i{
+    color: purple;
+}
+
+nav a i{
+    font-size: 1.1rem;
+}
+
+/* PSEUDE ELEMENTS */
+
+.p-elements::first-line{
+    color: red;
+}
+
+.p-elements::first-letter{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul.before-after{
+    list-style-type: none;
+
+}
+
+ul.before-after li{
+    background-color: lightcoral;
+    margin: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+}
+
+ul.before-after li::before{
+    content: '🏁';
+    margin: 10px;
+}
+
+
+ul.before-after li:nth-child(4)::after{
+    content: '🏎️';
+    margin: 10px;
+}
