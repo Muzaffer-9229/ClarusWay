@@ -83,10 +83,10 @@ console.clear();
 // ondalıklı sayı,negatif yada pozitif sayı değerlerini tanımlandığı değişken türüdür.
 
 yas = 40
-sayi = 56
+sayi1 = 56
 console.log(yas);
 
-sonuc = (sayi*5) + 6
+sonuc = (sayi1*5) + 6
 console.log(sonuc);
 
 const pi = Math.pi
@@ -104,13 +104,16 @@ console.log(yuvarlanmisSonuc);
 let truncSonuc = Math.trunc(sonuc)
 console.log(truncSonuc);
 
-// Virgülden sonra gelen ondalikli kisimda kac hane göstermesini istiyorsaniz toFixed
+// Virgülden sonra gelen ondalikli kisimda kac hane göstermesini istiyorsaniz toFixed, toFixed sonucu stringdir 
 
 let FixedSonuc = sonuc.tofixed(2)
 console.log(FixedSonuc(2));
 console.log(FixedSonuc)
-console.clear()
+
+
+
 //! RANDOM methodu
+
 //rast gele sayi üretmek icin kullanilir 
 // 0-1 arasinda bir sayi üretir
 
@@ -119,11 +122,102 @@ console.log(Math.round(Math.random()*100))
 
 console.log(Math.pow(5,3));  //kuvvet alma
 console.log(Math.sqrt(144));  //karekök
-console.clear();
+
+
+
+//! STRINGS
+
+ad = "John"
+
+let str1 = "Merhaba dünya bugün 17 Ocak"
+let str2 = 'Merhaba Dünya'
+let str3 = `merhaba dünya ${ad}`
+let str4 = new String("Merhaba Dünya")
+
+console.log(str2);
+console.log(str3);
+
+console.log(str1[4]);
+
+// string bu sekilde icindeki degere ulasilabilir ama degistirilemez (immutable)
+str1[4] = "ü"
+
+str = "Merhaba FS16"
+console.log(str1);
+
+
+let kimlik = 2353636363
+let adSoyad = "John Smith"
+
+console.log("Personelemiz " ,adSoyad, "'in Kimlik numarasi: ", kimlik);
+console.log(`Personelimiz ${adSoyad}'in Kimlik Numarasi: ${kimlik}`);
+
+
+
+
+//! BOOLEAN
+// True yada False degeri turtar
+
+let deger = 0
+console.log(Boolean(deger));
+
+let kontrol = (sifre = "12x45")
+console.log(Boolean(kontrol));
+
+if (isOpen == "12x45") {
+    console.log("Sisteminiz Acik");
+}
+else{
+    console.log("Sisteminiz Kapali");
+}
+
+
+//! NULL 
+
+let personel = null
+console.log(typeof null);
+
+console.log(Boolean);
+
+
+//! UNDEFINED
+
+let fonNumber;
+console.log(fonNumber);
+
+fonNumber = "+9023242425"
+console.log(fonNumber);
+
+function sum(){
+    return "toplam=4"
+}
+ console.log(sum());
+
+ //! NaN Not a Number
+
+
+let n;
+let result = n + 15
+console.log(result);
+
+console.log(isNaN(result));
+
+//NAN PRIMITAVE
+// Array, Object, FUNCTION
+
+//Aray
+let personalList = ["Ali", "Ayse", "Sema"]
+//object
+let personalData = {name:"Ali", surname:"Güven", age:"45"}
+// Function
+function sum(){
+    return "toplam=4"
+}
+ console.log(sum());
 
 
 
 
 
- 
+
 
