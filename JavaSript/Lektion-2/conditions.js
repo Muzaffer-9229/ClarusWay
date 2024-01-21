@@ -119,3 +119,33 @@ if (age <= 14) {
     durum = "yetiskin"
 }
 console.log(durum);
+
+// Örnek
+const calismaSüresi = 10
+let maas = 30000
+//* tek durumlu senaryoda ternary icinde islem yapma
+// calismaSüresi >= 10 ? (maas = maas * 1.5) : ""
+
+//* tek durumlu senaryoda ternary'nin degiskene deger aktarmasi islemi
+maas = calismaSüresi >= 10 ? maas * 1.5 :""
+console.log(maas);
+
+//! Short - Circuit
+
+let salary = 40000
+let year = 5
+let marriage = true
+
+// Tek condition ve tek durum
+year >= 10 && (salary = salary * 1.5)
+
+// 2 condition ve tek durum
+year >= 10 && marriage === true && (salary = salary * 1.5)
+
+console.log("Salary:", salary);
+
+
+// tek durum var ise short-circuit
+// 2 durum var ise ternary
+// 3-6 arasi durum var ise if-else 
+// 6 dan fazla ise switch-case 
