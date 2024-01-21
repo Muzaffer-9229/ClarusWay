@@ -136,6 +136,7 @@ let salary = 40000
 let year = 5
 let marriage = true
 
+//! && operatorü ( true ise yanindaki ifadeyi calistirir)
 // Tek condition ve tek durum
 year >= 10 && (salary = salary * 1.5)
 
@@ -143,6 +144,19 @@ year >= 10 && (salary = salary * 1.5)
 year >= 10 && marriage === true && (salary = salary * 1.5)
 
 console.log("Salary:", salary);
+
+//! || operatorü (false ise yanindaki ifadeyi calistirir)
+
+const sene = 14
+let result = "Ahmet"
+
+sene >= 18 || (result = "cocuk")
+console.log(result);
+
+// folsy bir degerin tespit edilip buna göre bir degiskene baslangic degeri vermek icin kullanim a cok uygundur.
+result = ""
+let myVar = result || "noname"
+console.log(myVar);
 
 
 // tek durum var ise short-circuit
