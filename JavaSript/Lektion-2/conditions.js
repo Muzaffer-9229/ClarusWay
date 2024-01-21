@@ -64,3 +64,58 @@ if (sayi3 > enBuyuk) {
 }
 
 console.log("enBuyuk:", enBuyuk);
+
+//! Ornek: Condition birleştirme
+
+const yaş = 20;
+const cinsiyet = "erkek";
+const sağlikli = true;
+
+// string.toLowerCase() ---> built-in fonksiyon (JS icerisinde tanimli olan fonksiyonlar)
+const koşul = yaş >= 18 && cinsiyet.toLowerCase() === "erkek" && sağlikli === true;
+
+if (koşul === true) {
+	console.log("Askerlik Yapmali");
+} else {
+	console.log("Askerlik Yapmasi gerekmez");
+}
+//* if(kosul === true) ===> if(kosul)
+//* if(kosul === false) ===> if(!kosul)
+
+const cumle = "bugun günlerden Cumartesi"
+const kucukHarfler = cumle.toLowerCase()
+const buyukHarfler = cumle.toUpperCase()
+console.log(kucukHarfler);
+console.log(buyukHarfler);
+
+
+//!Ternary
+
+const yas = 20
+
+yas >= 18 ? console.log("Askerlik yapmali") : console.log("Askerlik yapmaz");
+
+// if else hali
+
+if (yas > 18) {
+    console.log("Askerlik Yapmali");
+} else {
+    console.log("Askerlik Yapmaz");
+}
+
+//* nested ternary
+const age = 19
+
+const sonuc = age <= 14 ? "cocuk" : age <= 18 ? "ergen" : "yetiskin"
+console.log(sonuc);
+
+
+let durum = ""
+if (age <= 14) {
+    durum ="cocuk"
+} else if (age <= 18) {
+    durum = "ergen"
+} else {
+    durum = "yetiskin"
+}
+console.log(durum);
