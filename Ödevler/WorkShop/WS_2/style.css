@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgba(34,83,195,1) 18%, rgba(229,87,87,1) 100%);
+    height: auto;
+}
+
+
+.tittle {
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    text-align: center;
+    color: white;
+}
+header {
+    display: grid;
+    
+}
+
+.nav1 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+    
+}
+.nav1 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+
+.nav1 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+} 
+.nav1 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav1 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.nav2 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav2 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+.nav2 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav2 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav2 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.nav3 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav3 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+    
+}
+.nav3 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav3 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav3 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.nav4 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav4 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+.nav4 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav4 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav4 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.nav5 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav5 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+.nav5 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav5 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav5 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.nav6 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav6 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+.nav6 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav6 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav6 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.nav7 {
+    border: none;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding: 5px;
+    background: rgb(34,83,195);
+    background: linear-gradient(266deg, rgb(19, 60, 154) 18%, rgb(106, 38, 38) 100%);
+    height: auto;
+}
+.nav7 h1 {
+    padding: 10px;
+    color: rgb(228, 161, 94);
+}
+.nav7 img {
+    width: 35%;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    
+}
+.nav7 p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    font-size: .9rem;
+    color: white;
+}
+.nav7 button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(210, 122, 33);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* img {
+    overflow:clip;
+    overflow-clip-margin: content-box 15px;
+} */
+
+ 
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+    
+
+   
+
+
+
+
+
+
+   
+
+
+
+
+    
+
