@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #efefef;
+    border: 2px solid red;
+    font-family: "Bellota", system-ui;
+    font-family: "Judson", serif;
+}
+
+
+.container {
+    border: 2px solid red;
+    box-shadow: 10px 10px 50px black;
+    width: 80%;
+    /* height: 500px; */
+    margin: 50% auto;
+    border-radius: 1.5rem;
+}
+.icon {
+    border: 5px solid orange;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 50px;
+    margin-left: 50px;
+    
+}
+
+.input {
+    border: 2px solid blue;
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.catagory {
+    border: 3px solid purple;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+}
+.supportN {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem
+    ;
+}
+.nr{
+
+}
+.support {
+
+}
+
+.logo {
+        width: 50px;
+        height: 50px;
+}
+
+
+
