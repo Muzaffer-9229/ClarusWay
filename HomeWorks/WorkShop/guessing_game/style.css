@@ -27,7 +27,7 @@ body {
   }
 
   .para {
-    /* border: 2px solid red; */
+    border: none;
     text-align: center;
     font-size: 25px;
     padding: 10px;
@@ -38,7 +38,7 @@ body {
     flex-wrap: nowrap;
     justify-content: baseline;
     gap: 1.5rem;
-    /* border: 2px solid red; */
+    border: none;
     margin: 5px;
     margin-left: 78px;
     padding: 2px;
