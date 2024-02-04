@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #d7c78a 0%, #2db69b 54%, #75948f 91%);
+    ;
+}
+
+h1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 3.8rem;
+    text-shadow: 5px 5px #999;
+    padding: 10px 10px 25px;
+    
+}
+
+.name {
+    display: block;
+    justify-content: center;
+    
+    border: none;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+}
+.name button{
+    border: none;
+    margin: 10px;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 8px 9px #999;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #235241;
+    border: none;
+}
+
+.name button:hover {background-color: #c73522}
+
+.name button:active {
+  background-color: #5e7db5;
+  box-shadow: 6px 0 #666;
+  transform: translateY(4px);
+}
+.para {
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 3rem;
+    border: none;
+    padding: 5px;
+    margin: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0 0 0;
+    margin: 5px;
+    border: none;
+    font-family: "Fugaz One", sans-serif;
+    text-decoration: underline;
+}
+
+.project {
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 10px;
+    padding: 20px;
+
+}
+.project img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 6px 6px #999;
+    cursor: pointer;
+    
+    
+}
+.project img:hover {
+    transform: scale(1.2, 1.2);
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border: none;
+    padding: 25px 30px;
+}
+.contact-icon a {
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    color: #252424;
+    border-radius: 10px;
+    background-color: #999;
+    box-shadow: 5px 5px #252424;;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+
+}
+
+.contact-icon a:hover {
+    background-color: #c73522;
+}
+.contact-icon a:active {
+    background-color: #5e7db5;
+    box-shadow: 6px 0 #666;
+    transform: translateY(4px);
+}
+h3 {
+    text-align: center;
+    border: none;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    padding: 2rem 0 0 0;
+}
+
+.contact {
+    border: none;
+    display: block;
+    padding: 1px;
+    margin: 1px;
+}
+.form {
+    text-align: center;
+    color: black;
+}
+
+
+.formElement input {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 500px;
+    background-color: inherit;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    
+}
+.msg {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 1.4rem;
+    background-color: inherit;
+    color: black;
+}
+.btn {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 500px;
+    padding: 1px;
+    margin: -2px;
+    background-color: #235241;
+    color: white;
+    cursor: pointer;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 2.5rem;
+}
+.btn:hover {
+    background-color: #c73522;
+    transform: scale(1.1);
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 1.5rem;
+    text-decoration: none;
+    outline: none;
+    background-color: #235241;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+  }
+  .top:hover {
+    background-color: #c73522;
+  }
+
+ 
+    
+  
