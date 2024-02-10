@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Shrikhand&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(225, 207, 183);
+}
+
+header {
+    /* background: rgb(109,86,48); */
+    background: radial-gradient(circle, rgba(109,86,48,1) 0%, rgba(12,83,52,0.9917102461101628) 100%);
+    background-image: cover;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.tittle {
+    border: none;
+    text-align: center;
+    font-family: "Shrikhand", serif;
+    text-decoration: underline;
+}
+
+.buttons {
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.buttons button {
+    width: 9rem;
+    margin: 0px;
+    padding: 5px; 
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    font-family: "Handlee", cursive, sans-serif;
+    font-size: 2rem;
+}
+.buttons button:hover{
+    background-color: #488342;
+}
+
+main{ 
+    margin: 20px;
+    
+}
+
+
+
+
+.images {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 5rem;
+    align-items: center;
+    margin-top: 130px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+.bild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px grey;
+    cursor: zoom-in;
+       
+}
+
+
+.images img {
+
+    border: none;
+    width: 450px;
+    border-radius: 10px;
+       
+}
+
+
+.bild h3{
+    font-size: 25px;
+    position: absolute;
+    background: rgb(255, 255, 255, 0.30);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    transition: 1s ease;
+    visibility: visible;
+    font-family: "Shrikhand", serif;
+    cursor: zoom-in;
+} 
+
+.bild h3:hover{
+    opacity: 1;
+}
+
+
+footer{
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    font-family: "Handlee", cursive, sans-serif;
+    font-size: 1.2rem;
+    background: radial-gradient(circle, rgba(109,86,48,1) 0%, rgba(12,83,52,0.9917102461101628) 100%);
+
+}
+
