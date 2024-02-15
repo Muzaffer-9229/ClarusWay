@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(169,146,155);
+background: radial-gradient(circle, rgba(169,146,155,1) 0%, rgba(195,206,219,1) 100%);;
+}
+header {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.cw-logo {
+  border: none;
+  width: 60px;
+  cursor: pointer;
+  transition: all 3.8s;
+}
+.cw-logo:hover {
+  transform: rotate(360deg) scale(1.4);
+  transition-duration: 2.8s;
+  transition-timing-function: ease-in-out;
+  background-color: inherit;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  border: none;
+  padding: 15px 40px;
+  margin: 5px;
+}
+
+.btn {
+  border: none;
+  padding: 5px;
+  background-color: inherit;
+  color: black;
+  text-align: center;
+  text-decoration: none; 
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  position: relative;
+  
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.22em;
+  background-color: rgb(144, 27, 6);
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.8s linear;
+}
+.btn:hover::after {
+  transform: scaleX(1);
+}
+
+
+.tittle {
+  border: none;
+  text-align: center;
+}
+.tittle h1 {
+  border: none;
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 60px;
+  padding: 15px 10px;
+  margin: 15px 0px;
+  
+}
+
+.gallery {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  padding: 20px 10px;
+  margin: 0px auto;
+  
+}
+.images {
+    position: relative;
+    width: 250px;
+    height: 220px;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+    transform: translateY(0px);
+    animation: bilder 3s linear infinite;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+.images img {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 1px 1px 10px  black;   
+  
+}
+.images:hover {
+    z-index: 99;
+    animation: none;
+    transform: translateY(-18px) scale(1.7);
+    transition-property: none;
+
+}
+
+footer {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none;
+  padding: 5px;
+  gap: 2.5rem;
+  list-style-type: none;
+   
+}
+
+.fa-instagram {
+    padding: 5px;
+    text-align: center;
+    font-size: 3em;
+    transition: all 2.8s;
+    color: black;
+    
+}
+
+.fa-instagram:hover {
+    transform: rotate(360deg) scale(1.4);
+    transition-duration: 2.8s;
+    transition-timing-function: ease-in-out;
+    color: rgb(144, 27, 6);
+  }
+
+.fa-youtube {
+    padding: 5px;
+    text-align: center;
+    font-size: 2.5em;
+    transition: all 2.8s;
+    color: black;
+    
+}
+
+.fa-youtube:hover {
+    transform: rotate(360deg) scale(1.4);
+    transition-duration: 2.8s;
+    transition-timing-function: ease-in-out;
+    color: rgb(144, 27, 6);
+  }
+
+.fa-facebook {
+    padding: 5px;
+    text-align: center;
+    font-size: 3em;
+    transition: all 2.8s;
+    color: black;
+    
+}
+
+.fa-facebook:hover {
+    transform: rotate(360deg) scale(1.1);
+    transition-duration: 2.8s;
+    transition-timing-function: ease-in-out;
+    color: rgb(144, 27, 6);
+  }
+
+.fa-twitter {
+    padding: 5px;
+    text-align: center;
+    font-size: 3em;
+    transition: all 2.8s;
+    color: black;
+}
+
+.fa-twitter:hover {
+    transform: rotate(360deg) scale(1.4);
+    transition-duration: 2.8s;
+    transition-timing-function: ease-in-out;
+    color: rgb(144, 27, 6);
+  }
+
+.myLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.myLogo p {
+    font-family: "Noto Serif", serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  transition: all 2.8s;
+}
+
+.logo:hover {
+    transform: rotate(360deg) scale(1.4);
+    transition-duration: 2.8s;
+    transition-timing-function: ease-in-out;
+    background-color: inherit;
+  }
+
+@keyframes bilder {
+
+    
+    0% {
+        transform: scale(.9);
+        
+    }
+
+    25% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    75% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 392px) {
+  .tittle h1 {
+      font-size: 40px;
+      text-align: center;
+  }
+  header {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .buttons {
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    
+  }
+  .btn {
+    font-size: 14px;
+    
+  }
+  
+  .images:hover {
+    transform: scale(1.3);
+  }
+
+  @keyframes bilder {
+
+  
+    0% {
+        transform: scale(.7);
+        
+    }
+
+    25% {
+        transform: scale(.8);
+    }
+
+    50% {
+        transform: scale(.9);
+    }
+
+    75% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+    
+}
+}
