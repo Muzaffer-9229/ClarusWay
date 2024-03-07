@@ -17,3 +17,4 @@
 //* Await, promise-temelli herhangi bir fonksiyonun onune getirilerek getirildigi
 //* satirdaki kodun durdurulmasini saglar.
 //* Yapilan istek yerine getirilip sonuc degerlerinin dondurulmesi ile kodun calismasi devam eder.
+
